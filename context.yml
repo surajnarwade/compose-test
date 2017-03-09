@@ -1,0 +1,6 @@
+version: "2"
+services:
+    foo:
+        build:
+            context: "./build"
+        command: "sleep 3600"
